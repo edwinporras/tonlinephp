@@ -1,0 +1,43 @@
+.slimScrollDiv{
+    height: 50px !important;
+  }
+.msj_error{
+  width: 70% !important;
+  float: right !important;
+}
+.msj_ok{
+  width: 30% !important;
+  float: right !important;
+  margin-right: 30%;
+  background-color: #64e8ac !important;
+  padding: 0 !important;
+  margin-top: 1% !important;
+  margin-bottom: 1% !important;
+}
+.equix{
+  padding-left: 5% !important;
+}
+.msj_mod{
+  width: 90% !important;
+  float: right !important;
+}
+.btn_cerrar{
+  width: 100% !important;
+  right: 0px !important;
+  padding-top: 3% !important;
+}
+.msj_borrar, .msj_err{
+  width: 30% !important;
+  float: right !important;
+  margin-right: 30% !important;
+  padding: 0 !important;
+  margin-top: 1% !important;
+  margin-bottom: 1% !important;
+  text-align: center;
+}
+.msj_borrar{
+  background-color: #e88020 !important;
+}
+.msj_err{
+  background-color: #ff3300 !important;
+}

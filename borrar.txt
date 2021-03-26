@@ -1,0 +1,89 @@
+DIAPOSITIVA 1-2
+CAPA FISICA
+    QUE ES:
+    La capa fisica del modelo OSI es la que se encarga de las conexiones fisicas de la computadora a la red eso si
+    en cuanto al medio fisico, 
+    todo esto se hace a travez de medios guiados como lo son 
+        -   cable coaxial
+        -   cable de par trenzado
+        -   fibra optica
+    tambien por los medios no guiados como lo son:
+        -   radio
+        -   infrarrojos
+        -   microondas
+        -   laser
+    La forma en que se transmite la información se hace por:
+        -   codificacion de señal
+        -   niveles de tension / intensidad de corriente eléctrica
+        -   modulación
+        -   tasa binaria
+DIAPOSITIVA 3
+    Caracteristicas:
+        El número de voltios que se utiliza para representar el valor 1 y el valor 0 binarios.
+        El valor en microsegundos que dura cada bit en la transmisión.
+        El tipo de transmisión que se llevará a cabo: en una dirección o en ambas direcciones de furma simultanea o alternada.
+        La forma de establecer la conexión inicial.
+        El modo en que se interrumpe la conexión cuando los equipos han terminado de transmitir.
+
+    FISICAS
+        -   Mecánicas: las características físicas del elemento de conexión con la red, es decir, a las propiedades de 
+            la interfaz física con el medio de comunicación. Por ejemplo, las dimensiones y forma del conector, 
+            el número de cables usados en la conexión, el número de pines del conector. el tamaño del cable, 
+            el tipo de antena, etc.
+        -   Eléctricas: especifica las características eléctricas empleadas, por ejemplo, la tensión usada, 
+            velocidad de transmisión, intensidad en los pines. etc.
+        -   Funcionales: define las funciones de cada uno de los circuitos del elemento de interconexión a la red, 
+            por ejemplo, pin X para transmitir, pin Y para recibir, etc.
+        -   Procedimentales: establece los pasos a realizar para transmitir información a través del medio físico.  
+
+    TRANSMISION (Modo de comunicacion entre dispositivos) Tipologias
+        Hay que recordar que estas comunicaciones se estan realizando ya sea de forma sincrona, asyncrona o ambas
+
+        -   Simplex: un dispositivo actua siempre como emisor y el otro como receptor. La información sólo 
+            se puede enviar en un único sentido. Un ejemplo lo tenemos en las estaciones de radio y televisión.
+        -   Half-duplex: también conocida como semiduplex, permite el uso del canal para enviar datos en las 
+            dos direcciones, pero no de forma simultanea. Un ejemplo de este tipo de transmisión la tenemnos en
+            los walkie talkies, donde debemos pulsar un botón para ponernos en modo de emisión o soltarlo para 
+            ponernos en modo de recepción.
+        -   Full-duplex: este tipo de comunicación es la más aconsejable, ya que permite enviar y recibir datos 
+            por el mismo canal de forma simultánea entre dos dispositivos. Un ejemplo lo tenemos en el teléfono 
+            (otra cosa es que nos entendamos si hablamos simultáneamente).
+
+DIAPOSITIVA 4
+    La función principal de la capa física es la transmisión de bits a lo largo de un canal de comunicación. 
+    Su diseño debe asegurar que, siempre que un equipo de la red envie un bit, este se reciba de manera correcta en 
+    el equipo de destino al que va dirigido
+    Para establecer el canal de comunicación se utilizan los medios de transmisión. Estos medios son el cable, 
+    que une los equipos de una red, o el aire si la red es inalámbrica
+DIAPOSITIVA 5
+    Dispositivo de Interconexion
+        -   Bridge:  Es un repetidor con funcionalidad adicional de filtrado al leer las direcciones MAC de origen y 
+            destino. También se usa para interconectar dos LAN que funcionan en el mismo protocolo. 
+            Tiene un puerto de entrada y salida único, lo que lo convierte en un dispositivo de 2 puertos.
+        -   Switch o Conmutador: es un puente de multiples puertos, el Conmutador es muy eficiente ya que realiza una
+            vetificacion de errores antes de reenviar paquetes en otras palabras el Conmutador divide el dominio de 
+            colicion de los hosts pero el dominio de difusion sigue siendo el mismo
+        -   Repetidor: Se utilizan para extender la longitud de la red. Fueron creados para regenerar y amplificar 
+            señales débiles, extendiendo así la longitud de la red. La función básica de un repetidor es remodelar y 
+            reamplificar la señal de datos a su nivel original.
+
+            Las características importantes de estos equipos son las siguientes:
+                Conectar diferentes segmentos de red de una LAN
+                Reenviar cada paquete que recibe
+                Un repetidor es un regenerador, no un amplificador
+        -   Gateway: Las puertas de enlace son dispositivos de conexión multipropósito para crear uniones entre redes 
+            diferentes. Son capaces de convertir el formato de los paquetes de un entorno, a otro formato. Funcionan
+            como agentes de mensajería que toman datos de un sistema, los interpretan y transfieren a otro sistema.
+        -   Router: Los enrutadores enlazan dos o más redes diferentes, estas pueden constar de varios tipos de segmentos
+            de red LAN. Un enrutador recibe paquetes y selecciona la ruta óptima para reenviar el paquete a través de la red.
+
+            Los enrutadores crean una tabla de todas las direcciones de los dispositivos, llamada tabla de enrutamiento. 
+            Con ella, el enrutador envía una transmisión desde la fuente hacia el destino a través de la mejor ruta
+        -   Hubs: Un Hub es básicamente un repetidor multipuerto, actúa como concentrador y conecta múltiples cables 
+            provenientes de diferentes conexiones. Los concentradores no pueden filtrar datos, por lo que los paquetes 
+            de datos se envían a todos los dispositivos conectados, el dominio de colisión de todos los hosts conectados
+            a través de Hub sigue siendo uno.
+
+            Los Hubs no tienen inteligencia para encontrar la mejor ruta para los paquetes, las consecuencias: 
+            ineficiencia y desperdicio
+    
